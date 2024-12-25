@@ -35,7 +35,7 @@ styles:
                     float height = unpack(color);
 
                     // normalize to [0. - 1.]
-                    float new_value = (height - u_min)/(u_max - u_min);
+                    float new_value = (height - u_min)/(u_max*2 - u_min);
 
                     color.rgb = vec3(new_value);
                     color.a = 0.5;
