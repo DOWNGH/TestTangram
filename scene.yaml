@@ -32,14 +32,14 @@ styles:
                     }
                 color: |
                     // unpack color and remove offset
-                    float height = unpack(color);
+                    // float height = unpack(color);
 
                     // normalize to [0. - 1.]
-                    //float new_value = (height - u_min)/(2. * u_max - u_min);
-                    float new_value = (u_min)/(u_max - u_min);
+                    // float new_value = (height - u_min)/(2. * u_max - u_min);
+                    // float new_value = (u_min)/(u_max - u_min);
 
-                    color.rgb = vec3(new_value);
-                    color.a = 0.5;
+                    // color.rgb = vec3(new_value);
+                    // color.a = 0.5;
     togglelines:
         base: lines
         blend: overlay
