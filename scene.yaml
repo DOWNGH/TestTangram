@@ -38,7 +38,7 @@ styles:
                     // float new_value = (height - u_min)/(u_max - u_min);
                     float new_value = (u_min)/(u_max - u_min);
 
-                    color.rgb = vec3(new_value);
+                    //color.rgb = vec3(new_value);
                     color.a = 1.0;
     togglelines:
         base: lines
